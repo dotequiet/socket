@@ -6,7 +6,7 @@
 
 ```sh
 $ cd  /项目文件夹
-$ git clone xxxxxxx .
+$ git clone https://github.com/dotequiet/socket.git .
 ```
 
 
