@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.content {
+  overflow: hidden;
+}
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.width-visual {
+  width: 1124px;
+  margin: 0 auto;
+}
+/* recommended css code for vue-svgicon */
+.svg-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+}
+.svg-fill {
+  fill: currentColor;
+  stroke: none;
+}
+.svg-up {
+  /* 默认 */
+  transform: rotate(0deg);
+}
+.svg-right {
+  transform: rotate(90deg);
+}
+.svg-down {
+  transform: rotate(180deg);
+}
+.svg-left {
+  transform: rotate(-90deg);
+}
+.right {
+  text-align: right;
+  margin-top: 10px;
+}
+.el-breadcrumb {
+  line-height: inherit;
+}
+.content-header {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #999;
+}
+.el-table .cell {
+  text-overflow: initial;
+}
